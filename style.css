@@ -1,1 +1,28 @@
-style.css
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.description {
+    display: flex;
+}
+
+.cats {
+    display: flex;
+}
+
+.quot {
+    display: flex;
+}
+
+.signup {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
