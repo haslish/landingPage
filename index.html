@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class= "header">
-        <img src="images/catWithCrown.jpg" alt="A cat with a crown on his head" width="100">
+    <div class= "hero">
+        <div class = "herotop">
+            <img src="images/catWithCrown.jpg" alt="A cat with a crown on his head" width="100">
 
-        <ul>
-            <li> <a href="#"> link 1 </a> </li>
-            <li> <a href="#"> link 2 </a> </li>
-            <li> <a href="#"> link 3 </a> </li>
-        </ul>
+            <ul class="links">
+                <li> <a href="#"> link 1 </a> </li>
+                <li> <a href="#"> link 2 </a> </li>
+                <li> <a href="#"> link 3 </a> </li>
+            </ul>
+        </div>
+
+        <div class="herobottom">
+            <div class="herobottomleft">
+                <h1>A little page about cats</h1>
+                <span>This page contains a small amount of information about cats </span>
+            </div>
+            <div class ="herobottomright">
+                <img src="images/cuteCat.jpg" alt="The head of a cute cat">
+            </div>
+        </div>
     </div>
 
-    <div class= "description">
-        <h1>A little page about cats</h1>
-        <p>This page contains a small amount of information about cats </p>
-        <img src="images/cuteCat.jpg" alt="The head of a cute cat" width="600">
-    </div>
+    <h2>Cat fun facts</h2>
 
     <div class="cats">
         <div class="cat1">
@@ -46,13 +55,19 @@
 
     <div class="quot">
         <h2>"If cats could talk, they wouldn’t."</h2>
-        <p>-ChatGPT.</p>
+        <p class="source">-ChatGPT</p>
     </div>
 
     <div class="signup">
-        <h2>Call to action! It's time!</h2>
-        <p>Sign up for all the cat info you can handle.</p>
-        <button type="button">Sign up!</button>
+        <div class="signupbox">
+            <div class= "signupboxleft"> 
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for all the cat info you can handle.</p>
+            </div>
+            <div class= "signupboxright">
+                <button type="button">Sign up!</button>
+            </div>
+        </div>
     </div>
 
     <div class="footer">

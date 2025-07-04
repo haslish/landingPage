@@ -1,28 +1,172 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    font-family: arial;
+
 }
 
-.header {
-    display: flex;
+.hero, .footer{
+  background: #1f2937;
 }
+
+.herotop {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.herobottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.herobottomleft {
+  display: flex;
+  flex-direction: column;
+}
+.herobottomright {
+  display: flex;
+  max-width: 600px;
+}
+
+
+.herobottomright img { /* Select the image inside your div */
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  height: auto;    /* Maintains the aspect ratio of the image */
+  display: block;  /* Removes any extra space below the image */
+}
+
+
+
 
 .description {
-    display: flex;
+  display: flex;
+  max-width: 800px;
+  flex-wrap: wrap;
+  
 }
 
 .cats {
-    display: flex;
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
+.cat1, .cat2, .cat3, .cat4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 100px;
+}
+
+
+
+.cats img { /* Select the image inside your div */
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  min-width: 200px;
+  height: auto;    /* Maintains the aspect ratio of the image */
+  display: block;  /* Removes any extra space below the image */
+}
+
+.cats p {
+  max-width: 250px;
+}
+
+
+
+
 .quot {
-    display: flex;
+  display: flex;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-size: 36px;
+  font-family: "light italic";
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.source {
+  font-size: 16px;
 }
 
 .signup {
-    display: flex;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 
-.footer {
-    display: flex;
+.signupbox {
+  background-color: #3882F6;
+  padding: 20px;
+  gap: 30px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  color: #F9FAF8;
 }
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #F9FAF8;
+}
+
+
+
+
+.links {
+  display: flex;
+  list-style-type: none;
+  margin-right: 60px;
+  gap: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  weight: 900;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  weight: 900;
+}
+
+span {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 6px;
+  border-color:#F9FAF8;
+  color: #F9FAF8;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
